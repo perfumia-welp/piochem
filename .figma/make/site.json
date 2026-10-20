@@ -1,0 +1,10 @@
+{
+  "description": "This web application enables users to easily design and customize web pages with intuitive tools, streamlining the creation process for businesses and individuals.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

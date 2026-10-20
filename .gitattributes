@@ -1,0 +1,19 @@
+# Media is stored as plain Git objects (no LFS) so Cloudflare Pages gets every
+# asset on a normal clone. Mark binaries so Git never diffs or EOL-converts them.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.avif   binary
+*.ico    binary
+*.mp4    binary
+*.webm   binary
+*.mov    binary
+*.pdf    binary
+*.ttf    binary
+*.otf    binary
+*.woff   binary
+*.woff2  binary
+*.glb    binary
+*.zip    binary
